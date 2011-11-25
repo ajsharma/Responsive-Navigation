@@ -1,0 +1,88 @@
+/* General bootstrap styling */
+html, body {
+	height: 100%;
+}
+
+.global-wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -5em; /* the bottom margin is the negative value of the footer's height */
+}
+
+.global-footer, .global-footer-push {
+	height: 5em; /* push must be the same height as footer */
+}
+
+.global-footer {
+	background: #ccc;
+	box-sizing: border-box; /* Maintains height while allowing padding */
+	color: #fff;
+	padding: 2em;
+	text-align: center;
+}
+
+/* Text stylings */
+h1 {
+	font-size: 3em;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+/* Navigation stylings */
+
+nav {
+	background: #000;
+	color: #ccc;
+	width: 100%;
+}
+
+nav::after {
+	clear: both;
+}
+
+nav::before, nav::after {
+	content: "";
+	display: table;
+}
+
+nav ol,
+nav ul {
+	background: #000; /* don't like this, but needed for dropdown background */
+	list-style: none;
+	position: relative;
+}
+
+nav li {
+	float: left;
+	position: relative;
+}
+
+/* Navigation links */
+nav a {
+	color: inherit;
+	display: block;
+	padding: 1em;
+}
+
+nav a:focus,
+nav a:active,
+nav a:hover,
+nav .active {
+	color: #fff;
+} 
+
+/* Drop down navigation */
+nav li ol {
+	display: none;
+	position: fixed;
+	top: 3em;
+	left: 0;
+	width: 100%;
+}
+
+nav li:hover ol {
+	display: block;
+}
