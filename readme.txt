@@ -1,0 +1,1 @@
+This is a simple code to have a clean web navigation on small and large screens, even those with touch support.
