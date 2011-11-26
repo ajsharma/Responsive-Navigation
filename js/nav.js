@@ -29,7 +29,7 @@
 
 				clearMenus();
 				!isActive && li.toggleClass('open');
-				return false;
+				return false; /* prevent bubbles */
 			});
 		});
 	};
