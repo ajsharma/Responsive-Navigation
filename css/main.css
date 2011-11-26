@@ -82,3 +82,17 @@ nav li ul {
 nav li.open ul { 
 	display: block;
 }
+
+.dropdown-toggle::after { /* dropdown arrow using border fanciness */
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #cccccc;
+	content: "&darr;";
+	display: inline-block;
+	height: 0;	
+	margin-top: 8px;
+	margin-left: 4px;
+	text-indent: -99999px;
+	vertical-align: top;
+	width: 0;
+}
