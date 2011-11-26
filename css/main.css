@@ -40,6 +40,7 @@ nav {
 	color: #cccccc;
 	position: relative; /* so that dropdowns can stick to the bottom of the nav */
 	width: 100%;
+	z-index: 50; /* to keep nav in front of other objects */
 }
 
 nav::before, nav::after { /* Clearfixes */
