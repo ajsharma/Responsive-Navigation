@@ -56,15 +56,15 @@ nav ul {
 
 nav li {
 	float: left;
-	max-width: 12.5%; /* 100 divided by number of li items */
 	overflow: hidden;
+	text-align: center;
+	width: 12.5%; /* 100 divided by number of li items */
 }
 
 /* Navigation links */
 nav a {
 	color: inherit;
 	display: block;
-	padding: 1em;
 }
 
 nav a:focus,
@@ -74,6 +74,13 @@ nav .active,
 open a {
 	color: #ffffff;
 } 
+
+nav a::before { /* Navigation icons */
+	content: "";
+	display: block;
+	height: 40px; /* can be whatever size icon you want, just make sure it fits within the nav li */
+	background: url(../images/40x40-filler-icon.png) top center no-repeat; /* You would want to replace this image with a sprite collection image and set position for each li */
+}
 
 /* Drop down navigation */
 nav li ul {
@@ -90,7 +97,7 @@ nav li.open ul {
 	display: block;
 }
 
-.dropdown-toggle::after { /* dropdown arrow using border fanciness */
+.dropdown-toggle span::after { /* dropdown arrow using border fanciness */
 	border-left: 4px solid transparent;
 	border-right: 4px solid transparent;
 	border-top: 4px solid #cccccc;
@@ -102,4 +109,40 @@ nav li.open ul {
 	text-indent: -99999px;
 	vertical-align: top;
 	width: 0;
+}
+
+/* Small screen stylings go here */
+nav span {
+	display: none;
+}
+
+/*	Retina media query.  Overrides styles for devices with a  device-pixel-ratio of 2+, such as iPhone 4. */
+@media  only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	
+}
+
+/*	Wide Mobile Layout: 480px and up */
+@media only screen and (min-width: 480px) {
+	
+}
+
+/* Tablet layout: 768px and up */
+@media only screen and (min-width: 768px) {
+	
+	nav a {
+		padding: 1em 0;
+	}
+	
+	nav span {
+		color: inherit;
+		display: block;
+	}
+}
+
+/* Desktop layout: 991px and up */
+@media only screen and (min-width: 991px) {
+	
+	nav a {
+		padding: 1em;
+	}
 }

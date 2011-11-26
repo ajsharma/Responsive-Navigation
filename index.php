@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. -->
-	<meta name="viewport" content="width=device-width; initial-scale=1"/>  
+	<meta name="viewport" content="width=device-width; initial-scale=1"/> 
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
@@ -22,46 +22,46 @@
 		<header class="global-header">
 			<nav class="global-navigation">
 				<ul>
-					<li><a href="#1">Item 1</a></li>
-					<li><a href="#2">Item 2</a></li>
+					<li><a href="#1"><span>Item 1</span></a></li>
+					<li><a href="#2"><span>Item 2</span></a></li>
 					<li class="dropdown">
-						<a href="#3" class="dropdown-toggle">Item 3</a>
+						<a href="#3" class="dropdown-toggle"><span>Item 3</span></a>
 						<ul>
-							<li><a href="#3a">Item 3a</a></li>
-							<li><a href="#3b">Item 3b</a></li>
-							<li><a href="#3c">Item 3c</a></li>
+							<li><a href="#3a"><span>Item 3a</span></a></li>
+							<li><a href="#3b"><span>Item 3b</span></a></li>
+							<li><a href="#3c"><span>Item 3c</span></a></li>
 						</ul>
 					</li>
-					<li><a href="#4">Item 4</a></li>
-					<li><a href="#5">Item 5</a></li>
+					<li><a href="#4"><span>Item 4</span></a></li>
+					<li><a href="#5"><span>Item 5</span></a></li>
 					<li class="dropdown">
-						<a href="#6" class="dropdown-toggle">Item 6</a>
+						<a href="#6" class="dropdown-toggle"><span>Item 6</span></a>
 						<ul>
-							<li><a href="#6a">Item 6a</a></li>
-							<li><a href="#6b">Item 6b</a></li>
-							<li><a href="#6c">Item 6c</a></li>
-							<li><a href="#6d">Item 6d</a></li>
-							<li><a href="#6e">Item 6e</a></li>
-							<li><a href="#6f">Item 6f</a></li>
-							<li><a href="#6g">Item 6g</a></li>
-							<li><a href="#6h">Item 6h</a></li>
-							<li><a href="#6i">Item 6i</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a href="#7" class="dropdown-toggle">Item 7 has a longer name</a>
-						<ul>
-							<li><a href="#7a">Item 7a</a></li>
-							<li><a href="#7b">Item 7b</a></li>
-							<li><a href="#7c">Item 7c</a></li>
+							<li><a href="#6a"><span>Item 6a</span></a></li>
+							<li><a href="#6b"><span>Item 6b</span></a></li>
+							<li><a href="#6c"><span>Item 6c</span></a></li>
+							<li><a href="#6d"><span>Item 6d</span></a></li>
+							<li><a href="#6e"><span>Item 6e</span></a></li>
+							<li><a href="#6f"><span>Item 6f</span></a></li>
+							<li><a href="#6g"><span>Item 6g</span></a></li>
+							<li><a href="#6h"><span>Item 6h</span></a></li>
+							<li><a href="#6i"><span>Item 6i</span></a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#8" class="dropdown-toggle">Item 8</a>
+						<a href="#7" class="dropdown-toggle"><span>Item 7 has a longer name</span></a>
 						<ul>
-							<li><a href="#8a">Item 8a</a></li>
-							<li><a href="#8b">Item 8b</a></li>
-							<li><a href="#8c">Item 8c</a></li>
+							<li><a href="#7a"><span>Item 7a</span></a></li>
+							<li><a href="#7b"><span>Item 7b</span></a></li>
+							<li><a href="#7c"><span>Item 7c</span></a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#8" class="dropdown-toggle"><span>Item 8</span></a>
+						<ul>
+							<li><a href="#8a"><span>Item 8a has a longer name too</span></a></li>
+							<li><a href="#8b"><span>Item 8b</span></a></li>
+							<li><a href="#8c"><span>Item 8c</span></a></li>
 						</ul>
 					</li>
 				</ul>
