@@ -56,7 +56,6 @@ nav ul {
 
 nav li {
 	float: left;
-	overflow: hidden;
 	text-align: center;
 	width: 12.5%; /* 100 divided by number of li items */
 }
