@@ -140,6 +140,15 @@ nav span {
 
 /* Desktop layout: 991px and up */
 @media only screen and (min-width: 991px) {
+
+	.open ul {
+		min-width: 16em; /* set to about 3 items, better to do for each open custom li */ 
+	}
+
+	nav li {
+		width: auto;
+		position: relative;
+	}
 	
 	nav a {
 		padding: 1em;
