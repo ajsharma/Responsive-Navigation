@@ -63,7 +63,8 @@ nav a {
 nav a:focus,
 nav a:active,
 nav a:hover,
-nav .active {
+nav .active,
+open a {
 	color: #ffffff;
 } 
 
