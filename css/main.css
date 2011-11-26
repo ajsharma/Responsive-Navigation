@@ -78,7 +78,6 @@ nav li ul {
 	z-index: 100; /* So early dropdowns can cover lower nav links */
 }
 
-nav li:hover ul, /* This will be replaced with javascript open/closing */
 nav li.open ul { 
 	display: block;
 }
