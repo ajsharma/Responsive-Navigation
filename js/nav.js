@@ -29,7 +29,7 @@
 	**/
 	function clearMenus() {
 		$(dropdownSelector).parent('li').removeClass('open');
-	}
+	};
 
 	/**
 	 * Add dropdown behavior to selected items.
