@@ -18,17 +18,14 @@ html, body {
 	background: #ccc;
 	box-sizing: border-box; /* Maintains height while allowing padding */
 	color: #fff;
-	padding: 2em;
+	padding: 1em;
+	position: relative;
 	text-align: center;
 }
 
 /* Text stylings */
 h1 {
 	font-size: 3em;
-}
-
-p {
-	margin-bottom: 1em;
 }
 
 /* Navigation stylings */
@@ -83,6 +80,6 @@ nav li ol {
 	width: 100%;
 }
 
-nav li:hover ol {
+nav li:hover ol { /* This will be replaced with javascript open/closing */
 	display: block;
 }
