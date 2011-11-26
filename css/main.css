@@ -1,5 +1,6 @@
 /* General bootstrap styling */
 html, body {
+	font-family: sans-serif;
 	height: 100%;
 }
 
@@ -15,9 +16,9 @@ html, body {
 }
 
 .global-footer {
-	background: #ccc;
+	background: #cccccc;
 	box-sizing: border-box; /* Maintains height while allowing padding */
-	color: #fff;
+	color: #ffffff;
 	padding: 1em;
 	position: relative;
 	text-align: center;
@@ -31,30 +32,25 @@ h1 {
 /* Navigation stylings */
 
 nav {
-	background: #000;
-	color: #ccc;
+	background: #000000;
+	color: #cccccc;
+	position: relative; /* so that dropdowns can stick to the bottom of the nav */
 	width: 100%;
 }
 
-nav::after {
-	clear: both;
-}
-
-nav::before, nav::after {
+nav::before, nav::after { /* Clearfixes */
 	content: "";
+	clear: both;
 	display: table;
 }
 
-nav ol,
 nav ul {
-	background: #000; /* don't like this, but needed for dropdown background */
+	background: #000000; /* don't like this, but needed for dropdown background */
 	list-style: none;
-	position: relative;
 }
 
 nav li {
 	float: left;
-	position: relative;
 }
 
 /* Navigation links */
@@ -68,18 +64,21 @@ nav a:focus,
 nav a:active,
 nav a:hover,
 nav .active {
-	color: #fff;
+	color: #ffffff;
 } 
 
 /* Drop down navigation */
-nav li ol {
+nav li ul {
+	background: #111111; /* Subtle difference */
 	display: none;
-	position: fixed;
-	top: 3em;
 	left: 0;
+	position: absolute;
+	top: 100%;
 	width: 100%;
+	z-index: 100; /* So early dropdowns can cover lower nav links */
 }
 
-nav li:hover ol { /* This will be replaced with javascript open/closing */
+nav li:hover ul, /* This will be replaced with javascript open/closing */
+nav li.open ul { 
 	display: block;
 }

@@ -19,44 +19,44 @@
 	<div class="global-wrapper">
 		<header class="global-header">
 			<nav class="global-navigation">
-				<ol>
+				<ul>
 					<li><a href="#1">Item 1</a></li>
 					<li><a href="#2">Item 2</a></li>
 					<li>
 						<a href="#3">Item 3</a>
-						<ol>
+						<ul>
 							<li><a href="#3a">Item 3a</a></li>
 							<li><a href="#3b">Item 3b</a></li>
 							<li><a href="#3c">Item 3c</a></li>
-						</ol>
+						</ul>
 					</li>
 					<li><a href="#4">Item 4</a></li>
 					<li><a href="#5">Item 5</a></li>
 					<li>
 						<a href="#6">Item 6</a>
-						<ol>
+						<ul>
 							<li><a href="#6a">Item 6a</a></li>
 							<li><a href="#6b">Item 6b</a></li>
 							<li><a href="#6c">Item 6c</a></li>
-						</ol>
+						</ul>
 					</li>
 					<li>
 						<a href="#7">Item 7 has a longer name</a>
-						<ol>
+						<ul>
 							<li><a href="#7a">Item 7a</a></li>
 							<li><a href="#7b">Item 7b</a></li>
 							<li><a href="#7c">Item 7c</a></li>
-						</ol>
+						</ul>
 					</li>
 					<li>
 						<a href="#8">Item 8</a>
-						<ol>
+						<ul>
 							<li><a href="#8a">Item 8a</a></li>
 							<li><a href="#8b">Item 8b</a></li>
 							<li><a href="#8c">Item 8c</a></li>
-						</ol>
+						</ul>
 					</li>
-				</ol>
+				</ul>
 			</nav>
 		</header>
 
