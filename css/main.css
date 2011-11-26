@@ -136,6 +136,7 @@ nav span {
 	nav span {
 		color: inherit;
 		display: block;
+		display: block; /* makes text visible again */
 	}
 }
 
