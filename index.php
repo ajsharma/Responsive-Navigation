@@ -19,16 +19,6 @@
 </head>
 <body>
 	<div class="global-wrapper">
-		<div class="global-content">
-			<section class="content">
-				<header class="content-header">
-					<h1>This is an example page</h1>
-				</header>
-				<p>Consectetur exercitation chambray american apparel aesthetic sed. Veniam excepteur ullamco, leggings put a bird on it DIY enim butcher fugiat beard letterpress. Lo-fi consectetur fugiat sint. Ea laborum mixtape banksy. Et DIY thundercats, consequat lomo non portland fugiat. Mustache terry richardson nihil cliche, non chambray scenester sint et. Art party american apparel skateboard gluten-free mixtape +1.</p>
-
-				<p>Lo-fi beard cliche thundercats stumptown jean shorts cred single-origin coffee, keffiyeh chambray dolor. Cupidatat stumptown craft beer, ad skateboard retro mcsweeney's helvetica occaecat in art party. Vero four loko assumenda, freegan sapiente locavore put a bird on it. Fixie 3 wolf moon put a bird on it, freegan leggings twee proident wes anderson aute mcsweeney's single-origin coffee. Viral leggings salvia odio retro delectus. Non portland officia master cleanse pitchfork, elit butcher culpa food truck. Locavore commodo leggings, butcher echo park accusamus iphone raw denim single-origin coffee.</p>
-			</section>
-		</div>
 		<header class="global-header">
 			<nav class="global-navigation">
 				<ul>
@@ -77,6 +67,18 @@
 				</ul>
 			</nav>
 		</header>
+
+		<div class="global-content">
+			<section class="content">
+				<header class="content-header">
+					<h1>This is an example page</h1>
+				</header>
+				<p>Consectetur exercitation chambray american apparel aesthetic sed. Veniam excepteur ullamco, leggings put a bird on it DIY enim butcher fugiat beard letterpress. Lo-fi consectetur fugiat sint. Ea laborum mixtape banksy. Et DIY thundercats, consequat lomo non portland fugiat. Mustache terry richardson nihil cliche, non chambray scenester sint et. Art party american apparel skateboard gluten-free mixtape +1.</p>
+
+				<p>Lo-fi beard cliche thundercats stumptown jean shorts cred single-origin coffee, keffiyeh chambray dolor. Cupidatat stumptown craft beer, ad skateboard retro mcsweeney's helvetica occaecat in art party. Vero four loko assumenda, freegan sapiente locavore put a bird on it. Fixie 3 wolf moon put a bird on it, freegan leggings twee proident wes anderson aute mcsweeney's single-origin coffee. Viral leggings salvia odio retro delectus. Non portland officia master cleanse pitchfork, elit butcher culpa food truck. Locavore commodo leggings, butcher echo park accusamus iphone raw denim single-origin coffee.</p>
+			</section>
+		</div>
+		
 		<div class=".global-footer-push"></div>
 	</div>
 	
